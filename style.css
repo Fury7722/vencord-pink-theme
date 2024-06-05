@@ -1,0 +1,68 @@
+/* General background color */
+body {
+    background-color: #ffe4e1; /* Light pink background */
+}
+
+/* Text colors */
+body, .title, .message, .username {
+    color: #800080; /* Purple text */
+}
+
+/* Icons */
+.icon {
+    color: #9370db; /* Purplish icons */
+}
+
+/* Channel list background */
+.sidebar {
+    background-color: #ffcccb; /* Pink background for channel list */
+}
+
+/* Channel list text */
+.sidebar .channel-name {
+    color: #800080; /* Purple text for channels */
+}
+
+/* Messages background */
+.message-container {
+    background-color: #fff0f5; /* Very light pink for messages background */
+}
+
+/* Message text */
+.message-text {
+    color: #800080; /* Purple text for messages */
+}
+
+/* Buttons and interactive elements */
+.button, .input, .link {
+    background-color: #ffb6c1; /* Pink background for buttons */
+    color: #800080; /* Purple text for buttons */
+}
+
+.button:hover, .input:hover, .link:hover {
+    background-color: #ff69b4; /* Darker pink on hover */
+}
+
+/* User list background */
+.user-list {
+    background-color: #ffe4e1; /* Light pink for user list */
+}
+
+/* User list text */
+.user-list .user-name {
+    color: #800080; /* Purple text for users */
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #9370db; /* Purplish scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ffe4e1; /* Light pink scrollbar track */
+}
+Add pink theme CSS
